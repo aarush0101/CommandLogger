@@ -1,12 +1,8 @@
 settings:
   console: true
-  discord: false
-  webhook-name: "WebhookName"
-  webhook-url: "WebhookURL"
+  discord: true
+  webhook-name: "Viola Console"
+  webhook-url: "https://discord.com/api/webhooks/1190572575210872902/ywG8GRa_aaJXXA4gaGheyt6aR9FWHOimKJMXfj-soqlKe0bJEtaEVjucpuKJZss8RZU8"
 formats:
-  # set to true or false
-  # Tags:
-  # {command} -> Get the command executed
-  # {player} -> Get the player's name
   console-message: "CONSOLE {command} was sent by {player}"
   discord-message: "WEBHOOK {command} was sent by {player}"
